@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  font-family: New york;
+}
+@font-face {
+  font-family: New york;
+  src: url(./Fonts/new-york-extra-large-cufonfonts/NewYorkMediumRegular.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: New york;
+  src: url(./Fonts/new-york-extra-large-cufonfonts/NewYorkMediumMedium.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: New york;
+  src: url(./Fonts/new-york-extra-large-cufonfonts/NewYorkMediumSemibold.otf);
+  font-weight: 600;
+}
+.button {
+  width: 100px;
+  padding: 12px;
+  background-color: #f2aa4c;
+  color: white;
+  border: #f2aa4c;
+  margin-left: 50px;
+  border-radius: 8px;
+}
+h1 {
+    font-weight: bolder;
+    font-size: 100px;
+    width: 40%;
+   margin-left: 100px;
+}
+h2 {
+   font-weight: bolder;
+    font-size:80px;
+    text-align: center;
+    width: 65%;
+    margin-left: 300px;
+}
+h3 {
+    width: 50%;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  padding:0px;
+}
+.border-1 {
+  display: flex;
+  
+}
+.border {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  margin-left: 60px;
+ 
+}
+.border-2 {
+    display: flex;
+    padding: 0px;
+    margin-left: 120px;
+    width: 80%;
+    
+}
+.image-1 {
+    width: 4000px;
+}
+
