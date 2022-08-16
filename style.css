@@ -2,6 +2,7 @@ body {
   box-sizing: border-box;
   font-family: new york;
   font-family: sf-ui;
+  margin-left: 100px;
 }
 * {
   box-sizing: border-box;
@@ -72,69 +73,81 @@ body {
 }
 .button {
   width: 100px;
-  padding: 12px;
+  padding: 15px;
   background-color: #f2aa4c;
   color: white;
   border: #f2aa4c;
   margin-left: 50px;
-  border-radius: 8px;
+  border-radius: 5px;
+  font-size: 15px;
 }
 
 h2 {
   font-weight: bolder;
   font-size: 100px;
   width: 50%;
-  margin-left: 100px;
 }
 h3 {
   font-size:80px;
   font-weight: 500;
   width: 60%;
   text-align: center;
- margin-left: 300px;
 }
 p {
  font-weight: 300;
  font-size: 20px;
  line-height: 30px;
+ width: 30%;
 }
 ul li {
   display: inline-block;
 }
 ul li a {
   text-decoration: none;
-  font-size: 20px;
   color: #000000;
-  padding: 0px;
-}
-.border-1 {
-  display: flex;
+  font-size :18px;
+  padding: 30px;
 }
 .border {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 20px;
-  padding: 20px;
-  margin-left: 60px;
+ justify-content: space-between;
+ font-weight: lighter;
+ padding: 15px;
+ align-items: center;
+ margin: 10px;
 }
-.border-2 {
+.border-1 {
   display: flex;
-  padding: 0px;
-  margin-left: 120px;
-  width: 80%;
+  justify-content: space-evenly;
+  padding: 20px;
+  
 }
 .border-3 {
   width: 80%;
   padding: 2px;
-  margin-left: 200px;
- 
 }
-.image-1 {
-  width:3500px;
+.border-4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+.border-5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .image-2 {
   padding: 20px;
+}
+.image-3 {
+  width: 40%;
  
- 
+}
+.logo {
+  height: 10%;
+  width: 10%;
+}
+.text {
+width: 40%;
 }
