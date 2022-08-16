@@ -1,7 +1,13 @@
+body {
+  box-sizing: border-box;
+  font-family: new york;
+  font-family: sf-ui;
+}
 * {
   box-sizing: border-box;
-  font-family: New york;
+  font-family: sf-ui;
 }
+
 @font-face {
   font-family: New york;
   src: url(./Fonts/new-york-extra-large-cufonfonts/NewYorkMediumRegular.otf);
@@ -17,6 +23,53 @@
   src: url(./Fonts/new-york-extra-large-cufonfonts/NewYorkMediumSemibold.otf);
   font-weight: 600;
 }
+@font-face {
+  font-family: New york;
+  src: url(./Fonts/new-york-extra-large-cufonfonts/NewYorkMediumBold.otf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: New york;
+  src: url(./Fonts/new-york-extra-large-cufonfonts/NewYorkMediumBlack.otf);
+  font-weight: 900;
+}
+@font-face {
+  font-family: sf-ui;
+  src: url(./Fonts/SF-UI/sf-ui-display-thin-58646e9b26e8b.otf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: sf-ui;
+  src: url(./Fonts/SF-UI/sf-ui-display-ultralight-58646b19bf205.otf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: sf-ui;
+  src: url(./Fonts/SF-UI/sf-ui-display-light-58646b33e0551.otf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: sf-ui;
+  src: url(./Fonts/SF-UI/sf-ui-display-medium-58646be638f96.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: sf-ui;
+  src: url(./Fonts/SF-UI/sf-ui-display-semibold-58646eddcae92.otf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: sf-ui;
+  src: url(./Fonts/SF-UI/sf-ui-display-bold-58646a511e3d9.otf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: sf-ui;
+  src: url(./Fonts/SF-UI/sf-ui-display-black-58646a6b80d5a.otf);
+  font-weight: 900;
+}
 .button {
   width: 100px;
   padding: 12px;
@@ -26,21 +79,24 @@
   margin-left: 50px;
   border-radius: 8px;
 }
-h1 {
-    font-weight: bolder;
-    font-size: 100px;
-    width: 40%;
-   margin-left: 100px;
-}
+
 h2 {
-   font-weight: bolder;
-    font-size:80px;
-    text-align: center;
-    width: 65%;
-    margin-left: 300px;
+  font-weight: bolder;
+  font-size: 100px;
+  width: 50%;
+  margin-left: 100px;
 }
 h3 {
-    width: 50%;
+  font-size:80px;
+  font-weight: 500;
+  width: 60%;
+  text-align: center;
+ margin-left: 300px;
+}
+p {
+ font-weight: 300;
+ font-size: 20px;
+ line-height: 30px;
 }
 ul li {
   display: inline-block;
@@ -49,11 +105,10 @@ ul li a {
   text-decoration: none;
   font-size: 20px;
   color: #000000;
-  padding:0px;
+  padding: 0px;
 }
 .border-1 {
   display: flex;
-  
 }
 .border {
   display: flex;
@@ -62,16 +117,24 @@ ul li a {
   margin: 20px;
   padding: 20px;
   margin-left: 60px;
- 
 }
 .border-2 {
-    display: flex;
-    padding: 0px;
-    margin-left: 120px;
-    width: 80%;
-    
+  display: flex;
+  padding: 0px;
+  margin-left: 120px;
+  width: 80%;
+}
+.border-3 {
+  width: 80%;
+  padding: 2px;
+  margin-left: 200px;
+ 
 }
 .image-1 {
-    width: 4000px;
+  width:3500px;
 }
-
+.image-2 {
+  padding: 20px;
+ 
+ 
+}
