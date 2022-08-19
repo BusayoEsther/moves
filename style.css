@@ -2,13 +2,12 @@ body {
   box-sizing: border-box;
   font-family: new york;
   font-family: sf-ui;
-  margin-left: 150px;
   padding: 0px;
+  margin: 0;
 }
 * {
   box-sizing: border-box;
 }
-
 @font-face {
   font-family: New york;
   src: url(./Fonts/new-york-extra-large-cufonfonts/NewYorkMediumRegular.otf);
@@ -133,8 +132,6 @@ ul li a {
 .border-1 {
   display: flex;
 }
-.border-2 {
-}
 .border-3 {
   display: flex;
   align-items: center;
@@ -151,6 +148,28 @@ ul li a {
 }
 .border-6 {
   display: flex;
+  padding: 8%;
+  justify-content: space-between;
+}
+.border-7 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.border-8 {
+  display: flex;
+  justify-content: space-around;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #f9f9f9;
+ font-weight: lighter;
+ padding: 35px;
+}
+.background {
+  background: linear-gradient(
+    180deg,
+    #f9f9f9 22.12%,
+    rgba(249, 249, 249, 0) 100%
+  );
 }
 .image-1 {
   width: 65%;
@@ -164,15 +183,6 @@ ul li a {
 }
 .images {
   margin: 30px;
-}
-.map {
-  position: absolute;
-  right: 300px;
-  z-index: 1;
-}
-.woman {
-  position: absolute;
-  z-index: 2;
 }
 .quote {
   width: 15%;
