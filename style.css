@@ -4,6 +4,7 @@ body {
   font-family: sf-ui;
   padding: 0px;
   margin: 0;
+  overflow-x: hidden;
 }
 * {
   box-sizing: border-box;
@@ -88,6 +89,16 @@ body {
   font-size: 15px;
   border: #f2aa4c;
   border-radius: 5px;
+  margin-top: 60px;
+}
+.btns {
+  width: 15%;
+  margin-left: 100px;
+  color: white;
+  background-color: #f2aa4c;
+  padding: 15px;
+  font-size: 15px;
+  border: #f2aa4c;
 }
 h2 {
   font-weight: bolder;
@@ -101,9 +112,14 @@ h3 {
   text-align: center;
   margin: 100px auto;
 }
+h4 {
+  font-size: 20px;
+}
+
 .h4-style {
   font-size: 60px;
   width: 50%;
+  padding: 0 80px;
 }
 p {
   font-weight: 300;
@@ -127,15 +143,21 @@ ul li a {
   font-weight: lighter;
   padding: 15px;
   align-items: center;
-  margin: 10px;
+  padding: 0 10px;
 }
 .border-1 {
   display: flex;
+  padding: 100px;
+  justify-content: space-between;
+}
+.border-2 {
+  width: 100%;
+  overflow-y: hidden;
 }
 .border-3 {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .border-4 {
   display: flex;
@@ -145,6 +167,8 @@ ul li a {
 }
 .border-5 {
   display: flex;
+  padding: 0 80px;
+  align-items: center;
 }
 .border-6 {
   display: flex;
@@ -161,8 +185,8 @@ ul li a {
   border-top-style: solid;
   border-top-width: 1px;
   border-top-color: #f9f9f9;
- font-weight: lighter;
- padding: 35px;
+  font-weight: lighter;
+  padding: 35px;
 }
 .background {
   background: linear-gradient(
@@ -170,30 +194,49 @@ ul li a {
     #f9f9f9 22.12%,
     rgba(249, 249, 249, 0) 100%
   );
+  padding: 10px;
+  margin: 100px auto;
 }
 .image-1 {
   width: 65%;
+  height: fit-content;
 }
 .image-2 {
   padding: 10px;
 }
 .image-3 {
-  width: 45%;
-  height: auto;
+  width: 50%;
+  height: fit-content;
+  padding: 0 80px;
 }
 .images {
   margin: 30px;
+  width: 20%;
+  height: 20%;
+}
+.big-house {
+  width: 40%;
+}
+.imagess {
+  margin: 30px;
+  width: 10%;
+  height: 10%;
 }
 .quote {
   width: 15%;
   height: 15%;
-  padding: 15px;
+  padding: 35px;
 }
 .text {
   width: 25%;
-  line-height: 35px;
-  padding: 0px;
+  line-height: 30px;
 }
 .texts {
-  width: 50%;
+  width: 35%;
+}
+.female {
+  position: absolute;
+}
+.map {
+  width: 100%;
 }
