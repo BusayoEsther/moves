@@ -105,11 +105,14 @@ h2 {
   font-size: 100px;
   width: 50%;
 }
+.h2-style {
+  padding: 0 100px;
+}
 .h3style {
- width: 50%;
+  width: 50%;
   margin: 80px;
-   text-align: justify;
-    padding: 0 80px;
+  text-align: justify;
+  padding: 0 80px;
 }
 h3 {
   font-size: 60px;
@@ -264,56 +267,91 @@ ul li a {
 .map {
   width: 100%;
 }
-@media (max-width: 752px) {
+@media (max-width: 650px) {
   .border {
     font-size: x-small;
-    padding: 10px;
-    margin-left: 30px;
+    padding: 0px;
     display: flex;
-    width: 100%;
-    justify-content: space-between;
+    align-items: center;
   }
   .nav {
     display: flex;
+    padding: 0px;
+    justify-content: space-between;
   }
 
   ul li a {
     text-decoration: none;
     color: #000000;
-    font-size: 15px;
-    padding: 20px;
+    font-size: 16px;
+    padding: 2px;
   }
   .h2-style {
-    font-size: 180px;
-    padding-left: 0px;
+    font-size: 100px;
+    padding: 0 50px;
+  }
+  h3 {
+    margin: 10px;
+    text-align: justify;
+    width: 30%;
+  }
+  .border-3 {
+    display: inline;
+  }
+  .border-4 {
+    margin-left: 0px;
+  }
+  .border-5 {
+    display: inline;
+  }
+  .border-8   {
+  display: inline;
+  }
+  .btns {
+    width: 30%;
+  }
+  .border-5 h3 {
+    font-size: 15px;
+    text-align:center ;
+    width: 20%;
+  }
+  .quote {
+    width: 50%;
   }
   .text {
-    width: 100%;
+    width: 30%;
     line-height: 1;
   }
+
   .border-1 {
-    padding: 60px;
+    padding: 2px;
     display: flex;
     justify-content: space-between;
   }
-
+  .btn {
+    margin-top: 0px;
+  }
+.border-1 p {
+  font-size: 15px;
+  line-height: 1.5;
+}
   .image-1 {
-    height: auto;
-    width: 70%;
-    margin: 20px;
-    margin-left: 100px;
+    height: fit-content;
+    width: 50%;
+    margin-right: 100px;
   }
   .btn {
     width: 100%;
   }
   .h3style {
-  padding:0 20px;
-  margin: 50px;
-  width: 35%;
-  text-align: start;
-  font-size: 40px;
+    padding: 0 20px;
+    margin: 50px;
+    width: 35%;
+    text-align: start;
+    font-size: 40px;
   }
-  .image-3,.texts {
+  .image-3,
+  .texts {
     width: 70%;
   }
 }
