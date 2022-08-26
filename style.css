@@ -146,9 +146,7 @@ ul li a {
 .display {
   display: flex;
 }
-.nav {
-  display: flex;
-}
+
 .border {
   display: flex;
   justify-content: space-between;
@@ -274,11 +272,6 @@ ul li a {
     display: flex;
     align-items: center;
   }
-  .nav {
-    display: flex;
-    padding: 0px;
-    justify-content: space-between;
-  }
 
   ul li a {
     text-decoration: none;
@@ -287,13 +280,14 @@ ul li a {
     padding: 2px;
   }
   .h2-style {
-    font-size: 100px;
-    padding: 0 50px;
+    font-size: 48px;
+    padding: 0 5px;
   }
   h3 {
     margin: 10px;
     text-align: justify;
     width: 30%;
+    font-size: 40px;
   }
   .border-3 {
     display: inline;
@@ -304,54 +298,60 @@ ul li a {
   .border-5 {
     display: inline;
   }
-  .border-8   {
-  display: inline;
+  .border-8 {
+    display: inline;
   }
   .btns {
     width: 30%;
   }
   .border-5 h3 {
     font-size: 15px;
-    text-align:center ;
-    width: 20%;
+    text-align: center;
+    width: 50%;
   }
   .quote {
     width: 50%;
   }
   .text {
-    width: 30%;
+    width: 25%;
     line-height: 1;
   }
 
   .border-1 {
     padding: 2px;
     display: flex;
-    justify-content: space-between;
+    justify-content: initial;
   }
-  .btn {
-    margin-top: 0px;
+
+  .border-1 p {
+    font-size: 12px;
+    line-height: 12px;
   }
-.border-1 p {
-  font-size: 15px;
-  line-height: 1.5;
-}
   .image-1 {
-    height: fit-content;
-    width: 50%;
-    margin-right: 100px;
+    height: 55%;
+    width: 45%;
   }
   .btn {
     width: 100%;
+    margin-top: 0px;
+    padding: 3px;
+  }
+  .button {
+    width: 100px;
+    padding: 5px;
+   
+    border-radius: 5px;
+    font-size: 15px;
   }
   .h3style {
-    padding: 0 20px;
-    margin: 50px;
+    padding: 0;
+    margin: 0px;
     width: 35%;
     text-align: start;
     font-size: 40px;
   }
   .image-3,
   .texts {
-    width: 70%;
+    width: 80%;
   }
 }
